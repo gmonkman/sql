@@ -1,0 +1,2 @@
+EXEC sp_Msforeachdb "IF EXISTS (SELECT * FROM sys.server_principals WHERE name ='concertoiis') DROP USER concertoiis"
+EXEC sp_Msforeachdb "IF EXISTS (SELECT * FROM sys.server_principals WHERE name ='concertoiis') DROP LOGIN concertoiis"
