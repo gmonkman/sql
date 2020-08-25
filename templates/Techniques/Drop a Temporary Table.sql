@@ -1,0 +1,1 @@
+if not object_id('tempdb..##helpdesk_export') is null drop table ##helpdesk_export
